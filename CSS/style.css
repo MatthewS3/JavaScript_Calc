@@ -1,5 +1,6 @@
-.wrapper {
-    max-width: 400px;
+.calc {
+    width: 410px;
+    height: 680px;
     margin: 0 auto;
     background-color: #111111;
     border: white 2px solid;
@@ -11,27 +12,29 @@
     display: flex;
     flex-flow: column nowrap;
     background-color:transparent;
-    border-radius: 200px;
-    height: 170px;
-    padding: 10px;
+    border-radius: 100px;
+    height: 130px;
+    padding: 20px;
+    margin-top: 20px;
     font-size: 3rem;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
     text-align: right;
     justify-content: center;
+    background-color: #ddd;
 
   }
   
   .screen .previous {
     font-size: 1.5rem;
-    color: rgba(255, 255, 255, 0.75);
+    color: #ff9500;
     word-wrap: break-word;
     word-break: break-all;
   }
   
   .screen .current {
     font-size: 2.5rem;
-    color: #ffffff;
+    color: #111;
     word-wrap: break-word;
     word-break: break-all;
   }
